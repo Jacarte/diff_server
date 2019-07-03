@@ -2,8 +2,10 @@
 
 Returns diff url file in a REST API call
 
+Deploy on ```http://jacarte.pythonanywhere.com```
+
 ```JS
-fetch(`http://localhost:8000/?url=${diffURL}`, {method: 'GET'})
+fetch(`http://jacarte.pythonanywhere.com/?url=${diffURL}`, {method: 'GET'})
       .then(function (data) {
           data.json().then(json => {
               console.log(json);
