@@ -21,3 +21,7 @@ fetch(`http://jacarte.pythonanywhere.com/?url=${diffURL}`, {method: 'GET'})
       });
 
 ```
+
+## TODO
+
+- File cache
