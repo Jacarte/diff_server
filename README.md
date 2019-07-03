@@ -23,5 +23,5 @@ fetch(`http://jacarte.pythonanywhere.com/?url=${diffURL}`, {method: 'GET'})
 ```
 
 ## TODO
-
+- This is a proof of concept, Django is a bazooka killing a mosquito in this case ;).
 - File cache
