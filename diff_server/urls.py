@@ -19,5 +19,6 @@ from diff import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'', views.index , name='index'),
+    path(r'meta/', views.onlyMeta , name='onlyMeta'),
+    path(r'', views.completeDif , name='completeDiff'),
 ]
