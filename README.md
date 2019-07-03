@@ -2,7 +2,7 @@
 
 Returns diff url file in a REST API call
 
-Deploy on ```http://jacarte.pythonanywhere.com```
+Deployed in ```http://jacarte.pythonanywhere.com```
 
 ```JS
 fetch(`http://jacarte.pythonanywhere.com/?url=${diffURL}`, {method: 'GET'})
